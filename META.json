@@ -1,0 +1,69 @@
+{
+   "abstract" : "We are Danish CPAN authors",
+   "author" : [
+      "Kaare Rasmussen <kaare@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Acme-CPANAuthors-Danish",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "examples",
+         "corpus"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Acme::CPANAuthors::Register" : 0,
+            "perl" : "5.006",
+            "strict" : 0,
+            "warnings" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Acme::CPANAuthors" : 0,
+            "File::Find" : 0,
+            "File::Temp" : 0,
+            "Test::More" : 0
+         }
+      }
+   },
+   "provides" : {
+      "Acme::CPANAuthors::Danish" : {
+         "file" : "lib/Acme/CPANAuthors/Danish.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "https://github.com/kaare/acme-cpanauthors-danish",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kaare/acme-cpanauthors-danish.git",
+         "web" : "https://github.com/kaare/acme-cpanauthors-danish"
+      }
+   },
+   "version" : "0.001"
+}
+

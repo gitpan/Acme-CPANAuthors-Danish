@@ -8,7 +8,7 @@
 #
 package Acme::CPANAuthors::Danish;
 {
-  $Acme::CPANAuthors::Danish::VERSION = '0.001';
+  $Acme::CPANAuthors::Danish::VERSION = '0.01';
 }
 # ABSTRACT: We are Danish CPAN authors
 
@@ -16,7 +16,10 @@ use strict;
 use warnings;
 
 use Acme::CPANAuthors::Register (
+    ABH      => 'Ask Bjørn Hansen',
+    JONASBN  => 'jonasbn',
     KAARE    => 'Kaare Rasmussen',
+    MADZ     => 'Michael Anton Dines Zedeler',
 );
 
 
@@ -31,7 +34,7 @@ Acme::CPANAuthors::Danish - We are Danish CPAN authors
 
 =head1 VERSION
 
-version 0.001
+version 0.01
 
 =head1 DESCRIPTION
 
@@ -46,9 +49,9 @@ This class provides a hash of Pause ID/name of Danish CPAN authors.
 
     my $number   = $authors->count;
     my @ids      = $authors->id;
-    my @distros  = $authors->distributions('KAARE');
-    my $url      = $authors->avatar_url('KAARE');
-    my $kwalitee = $authors->kwalitee('KAARE');
+    my @distros  = $authors->distributions('ABH');
+    my $url      = $authors->avatar_url('JONASBN');
+    my $kwalitee = $authors->kwalitee('MADZ');
 
 =head1 MAINTENANCE
 

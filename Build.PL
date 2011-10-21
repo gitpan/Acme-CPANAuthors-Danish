@@ -21,7 +21,7 @@ my %module_build_args = (
     "Kaare Rasmussen <kaare\@cpan.org>"
   ],
   "dist_name" => "Acme-CPANAuthors-Danish",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Acme::CPANAuthors::Danish",
   "recommends" => {},

@@ -2,7 +2,7 @@ NAME
     Acme::CPANAuthors::Danish - We are Danish CPAN authors
 
 VERSION
-    version 0.01
+    version 0.02
 
 DESCRIPTION
     This class provides a hash of Pause ID/name of Danish CPAN authors.

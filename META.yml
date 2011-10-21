@@ -26,7 +26,7 @@ no_index:
 provides:
   Acme::CPANAuthors::Danish:
     file: lib/Acme/CPANAuthors/Danish.pm
-    version: 0.01
+    version: 0.02
 requires:
   Acme::CPANAuthors::Register: 0
   perl: 5.006
@@ -35,4 +35,4 @@ requires:
 resources:
   homepage: https://github.com/kaare/acme-cpanauthors-danish
   repository: https://github.com/kaare/acme-cpanauthors-danish.git
-version: 0.01
+version: 0.02

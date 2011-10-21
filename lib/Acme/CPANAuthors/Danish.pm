@@ -8,7 +8,7 @@
 #
 package Acme::CPANAuthors::Danish;
 {
-  $Acme::CPANAuthors::Danish::VERSION = '0.01';
+  $Acme::CPANAuthors::Danish::VERSION = '0.02';
 }
 # ABSTRACT: We are Danish CPAN authors
 
@@ -19,6 +19,7 @@ use Acme::CPANAuthors::Register (
     ABH      => 'Ask Bjørn Hansen',
     JONASBN  => 'jonasbn',
     KAARE    => 'Kaare Rasmussen',
+    LTHEGLER => 'Lars Thegler',
     MADZ     => 'Michael Anton Dines Zedeler',
 );
 
@@ -34,7 +35,7 @@ Acme::CPANAuthors::Danish - We are Danish CPAN authors
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

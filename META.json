@@ -52,7 +52,7 @@
    "provides" : {
       "Acme::CPANAuthors::Danish" : {
          "file" : "lib/Acme/CPANAuthors/Danish.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -64,6 +64,6 @@
          "web" : "https://github.com/kaare/acme-cpanauthors-danish"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

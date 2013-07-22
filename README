@@ -2,12 +2,9 @@ NAME
     Acme::CPANAuthors::Danish - We are Danish CPAN authors
 
 VERSION
-    version 0.02
+    version 0.03
 
-DESCRIPTION
-    This class provides a hash of Pause ID/name of Danish CPAN authors.
-
-  SYNOPSIS
+SYNOPSIS
         use Acme::CPANAuthors;
         use Acme::CPANAuthors::Danish;
 
@@ -18,6 +15,9 @@ DESCRIPTION
         my @distros  = $authors->distributions('ABH');
         my $url      = $authors->avatar_url('JONASBN');
         my $kwalitee = $authors->kwalitee('MADZ');
+
+DESCRIPTION
+    This class provides a hash of Pause ID/name of Danish CPAN authors.
 
 MAINTENANCE
     If you are an Danish CPAN author and are not listed here, please mail

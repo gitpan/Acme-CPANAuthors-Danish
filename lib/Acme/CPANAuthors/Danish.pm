@@ -8,12 +8,13 @@
 #
 package Acme::CPANAuthors::Danish;
 {
-  $Acme::CPANAuthors::Danish::VERSION = '0.02';
+  $Acme::CPANAuthors::Danish::VERSION = '0.03';
 }
 # ABSTRACT: We are Danish CPAN authors
 
 use strict;
 use warnings;
+use utf8;
 
 use Acme::CPANAuthors::Register (
     ABH      => 'Ask Bjørn Hansen',
@@ -27,6 +28,7 @@ use Acme::CPANAuthors::Register (
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -35,13 +37,9 @@ Acme::CPANAuthors::Danish - We are Danish CPAN authors
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
-=head1 DESCRIPTION
-
-This class provides a hash of Pause ID/name of Danish CPAN authors.
-
-=head2 SYNOPSIS
+=head1 SYNOPSIS
 
     use Acme::CPANAuthors;
     use Acme::CPANAuthors::Danish;
@@ -53,6 +51,12 @@ This class provides a hash of Pause ID/name of Danish CPAN authors.
     my @distros  = $authors->distributions('ABH');
     my $url      = $authors->avatar_url('JONASBN');
     my $kwalitee = $authors->kwalitee('MADZ');
+
+=head1 DESCRIPTION
+
+This class provides a hash of Pause ID/name of Danish CPAN authors.
+
+=encoding utf-8
 
 =head1 MAINTENANCE
 
@@ -75,4 +79,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
